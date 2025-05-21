@@ -6,22 +6,21 @@
   --header-height: 3rem;
 
   /*========== Colors ==========*/
-  /* Change favorite color */
-  --hue-color: 190; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+  --hue-color: 0; /* Red */
 
   /* HSL color mode */
-  --first-color: hsl(var(--hue-color), 69%, 61%);
-  --first-color-second: hsl(var(--hue-color), 69%, 61%);
-  --first-color-alt: hsl(var(--hue-color), 57%, 53%);
-  --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
-  --title-color: hsl(var(--hue-color), 8%, 15%);
-  --text-color: hsl(var(--hue-color), 8%, 45%);
-  --text-color-light: hsl(var(--hue-color), 8%, 65%);
-  --input-color: hsl(var(--hue-color), 70%, 96%);
-  --body-color: hsl(var(--hue-color), 60%, 99%);
-  --container-color: #fff;
-  --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
-  --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
+  --first-color: #ff0000; /* Red (for highlights/buttons) */
+  --first-color-second: #000000; /* Pure black for main backgrounds */
+  --first-color-alt: #b30000; /* Darker Red */
+  --first-color-lighter: #000000; /* Pure black for subtle backgrounds */
+  --title-color: #fff; /* White for contrast */
+  --text-color: #fff; /* White for maximum contrast */
+  --text-color-light: #888888; /* Slightly lighter gray for subtle text */
+  --input-color: #000000; /* Pure black for input backgrounds */
+  --body-color: #000000; /* Pure black background */
+  --container-color: #000000; /* Pure black for containers */
+  --scroll-bar-color: #000000;
+  --scroll-thumb-color: #222222;
 
   /*========== Font and typography ==========*/
   --body-font: "Poppins", sans-serif;
